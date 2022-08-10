@@ -1,0 +1,42 @@
+    .navbutton {
+        background-color: white;
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+        color: black;
+        height: 25px;
+        width: 100px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+        transition: box-shadow 0.2s;
+    }
+    .navbutton:hover{
+        background-color: rgb(225, 225, 225);
+        box-shadow: 1px 1px 3px rgb(231, 231, 231);
+    }
+    .navbutton:active{
+        background-color: rgb(200, 200, 200)
+    }
+
+
+    h1 {
+        font-family: 'Segoe UI';
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 24px;
+    }
+    h2 {
+        font-family: 'Segoe UI';
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    p {
+        font-family: 'Segoe UI';
+        font-size: 15px;
+        color: rgb(40, 40, 40);
+        margin-top: 5px;
+}

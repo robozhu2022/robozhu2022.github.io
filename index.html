@@ -3,25 +3,40 @@
     <head>
         <title>RoboZhu</title>
         <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+        <style>
+            .banner {
+                width: 300px;
+                height: 100px;
+                object-fit: cover;
+                object-position: center;
+            }
+        </style>
     </head>
 
     <body>
         <header>
-            <h2>RoboZhu</h2>
-            <nav>
-                <a href="/home/">Home</a>
-                <a href="/archive/">Archive</a>
-                <a href="/about/">About</a>
-            </nav>
+            <div class="container">
+                <!--<img class="logo" src="BaseImages/Capture5.PNG">-->
+                <h1 style="display:inline-block; float:left;">RoboZhu</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Archive</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+            
+            <hr style="height:5px;">
         </header>
 
         <main>
-            <button class="navbutton">TEST</button>
-            <button>TEST2</button>
-
-            <h1>Title</h1>
-            <h2>Subheading</h2>
-            <p>Here's the body of the text.</p>
+            <h1>Recent Posts</h1>
+            <h2>Article Title</h2>
+            <p>Short Description</p>
         </main>
     </body>
 </html>

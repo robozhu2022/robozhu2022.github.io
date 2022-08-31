@@ -51,10 +51,21 @@ nav a:active{
 }
 
 .image {
-    float: left;
-    width: 500px;
-    object-fit: cover;
+    width: 95%;
+    height: auto;
+    max-width: 660px;
+    margin: auto;
     object-position: center;
+    display: block;
+}
+
+.imagetall1 {
+    width: 95%;
+    height: auto;
+    max-width: 350px;
+    margin: auto;
+    object-position: center;
+    display: block;
 }
 
 .article {
@@ -101,6 +112,35 @@ nav a:active{
     z-index: 1;
 }
 
+.articlebox {
+    position: relative;
+    width: 60%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+}
+
+.imagebox {
+    position: relative;
+    width: 95%;
+    height: auto;
+    max-width: 660px;
+    margin: auto;
+    object-position: center;
+    display: block;
+}
+
+.imagebox .column2 {
+    float: left;
+    width: 50%;
+}
+
+.imagebox::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 .link {
     position: absolute;
     width: 100%;
@@ -113,6 +153,7 @@ h1 {
     font-weight: bold;
     font-size: 24px;
     line-height: 24px;
+    text-align: center;
 }
 h2 {
     font-family: 'Segoe UI';

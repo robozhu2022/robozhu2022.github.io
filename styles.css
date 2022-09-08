@@ -126,6 +126,8 @@ nav a:active{
     height: auto;
     max-width: 660px;
     margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
     object-position: center;
     display: block;
 }
